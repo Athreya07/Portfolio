@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
-import { Database, Code2 } from 'lucide-react';
+import { Database, Code2, BarChart3, AreaChart } from 'lucide-react';
+import { FaFileExcel } from 'react-icons/fa';
 import {
   SiPython, SiCplusplus, SiJavascript, SiTypescript,
   SiReact, SiHtml5, SiCss, SiTailwindcss,
@@ -7,6 +8,7 @@ import {
   SiMysql, SiFirebase,
   SiTensorflow, SiScikitlearn, SiPandas, SiNumpy,
   SiGit, SiGithub, SiPostman, SiDocker,
+  SiGooglesheets,
 } from 'react-icons/si';
 import type { IconType } from 'react-icons';
 import { skills } from '../data/portfolio';
@@ -38,6 +40,11 @@ const techMeta: Record<string, TechMeta> = {
   'Scikit-learn': { Icon: SiScikitlearn, color: '#F7931E' },
   Pandas: { Icon: SiPandas, color: '#E7E7E7', invert: true },
   NumPy: { Icon: SiNumpy, color: '#4DABCF' },
+
+  Excel: { Icon: FaFileExcel, color: '#217346' },
+  'Power BI': { Icon: BarChart3 as unknown as IconType, color: '#F2C811' },
+  Tableau: { Icon: AreaChart as unknown as IconType, color: '#E97627' },
+  'Google Sheets': { Icon: SiGooglesheets, color: '#0F9D58' },
 
   Git: { Icon: SiGit, color: '#F05032' },
   GitHub: { Icon: SiGithub, color: '#E7E7E7', invert: true },
