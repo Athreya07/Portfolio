@@ -39,7 +39,8 @@ Add your resume here:
 public/resume.pdf
 ```
 
-## Deploy
+## Deployment
 
-Deploy easily on Vercel 
-DEMO:
+Deployed on Vercel 
+
+DEMO: https://portfolio-atharva-galwade.vercel.app/
