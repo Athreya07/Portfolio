@@ -41,4 +41,5 @@ public/resume.pdf
 
 ## Deploy
 
-Deploy easily on Vercel or Netlify.
+Deploy easily on Vercel 
+DEMO:
